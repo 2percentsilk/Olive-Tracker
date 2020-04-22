@@ -1,10 +1,10 @@
-# ⚾ Ballpark Tracker
+# 🐶 Olive Tracker
 
 [![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=Ballpark%20Tracker&repo=nikmd23/ballpark-tracker)
 
-A simple application used for tracking which MLB and AAA stadiums a [Ballpark Chaser](https://www.ballparkchasers.com/) has been to.
+A simple application used for tracking places Olive the Corgi has visited.
 
-![Ballpark Tracker App](screenshot.png)
+TODO: Add screenshot of app
 
 ## Contributing
 
@@ -20,7 +20,4 @@ export AZURE_MAPS_KEY=<YOUR_KEY_GOES_HERE>
 
 ### Links
 
-- [Sports Venue Datasource](https://hifld-geoplatform.opendata.arcgis.com/datasets/major-sport-venues/data)
-- [Sports Venue Usage Datasource](https://hifld-geoplatform.opendata.arcgis.com/datasets/major-sport-venues-usage/data)
-- [Sports Logo Compilation](http://www.sportslogos.net/)
 - [Base App](https://docs.microsoft.com/en-us/azure/azure-maps/tutorial-create-store-locator)
