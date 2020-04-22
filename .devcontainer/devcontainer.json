@@ -1,12 +1,12 @@
 {
-    "name": "Ball Park Tracker",
+    "name": "Olive Tracker",
     "appPort": 3000,
     "extensions": [
         "dbaeumer.vscode-eslint",
-        "karigari.chat"
+        "gruntfuggly.todo-tree"
     ],
     "settings": {
-        "files.autoSave": "off"
+        "files.autoSave": "on"
     },
     "postCreateCommand": "bash .devcontainer/postCreate.sh"
 }
