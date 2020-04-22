@@ -2,7 +2,7 @@
 
 [![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=Ballpark%20Tracker&repo=nikmd23/ballpark-tracker)
 
-A simple application used for tracking places Olive the Corgi has visited.
+A simple application used for tracking places [Olive the Corgi](https://www.instagram.com/olivemycorgi/) has visited.
 
 TODO: Add screenshot of app
 
