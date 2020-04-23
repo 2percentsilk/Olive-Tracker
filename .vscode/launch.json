@@ -24,7 +24,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Run Ballpark Tracker",
+            "name": "Run Olive Tracker",
             "skipFiles": [
                 "<node_internals>/**"
             ],

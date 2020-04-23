@@ -329,6 +329,7 @@ function showPopup (shape) {
     properties['VenueName'],
     '<div class="popupSubTitle">',
     properties['TeamName'],
+    /*
     '</div></div><div class="popupContent">',
 
     // Show team image
@@ -345,6 +346,7 @@ function showPopup (shape) {
     '" onchange="toggleVenue(this)"',
     properties['Visited'] ? ' checked' : '',
     '><span class="customLabel"></span></label><br/>'
+    */
   );
 
   html.push('</div></div>');
