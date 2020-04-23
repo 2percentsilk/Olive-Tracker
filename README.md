@@ -1,22 +1,47 @@
 # 🐶 Olive Tracker
 
-[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=Ballpark%20Tracker&repo=nikmd23/ballpark-tracker)
+An application used for tracking places [Olive the Corgi](https://www.instagram.com/olivemycorgi/) has visited.
+Familiarize yourself with this app to get started on our team before tackling the main repo!
 
-A simple application used for tracking places [Olive the Corgi](https://www.instagram.com/olivemycorgi/) has visited.
+## Get Started
 
-TODO: Add screenshot of app
+## Install developer tools
 
-## Contributing
+1. Allow installation of unshipped software by running this from an elevated command prompt:
 
-> NOTE: This project requires [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/). Only pull requests that statisfy the [ESLint rules](https://github.com/nikmd23/ballpark-tracker/blob/master/.eslintrc.json) will be accepted. 
+    ```
+    \\preinstall\PREINSTALL\JustLetMeRunThis\Preinstall.cmd
+    ```
+    
+1. Install the .NET Core SDK version specified in our [global.json](https://devdiv.visualstudio.com/DevDiv/_git/VSCloudKernel?path=%2Fglobal.json). E.g. [.NET Core SDK 3.1.102](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.102-windows-x64-installer)
+1. Unzip the [nuget.exe and the VSTS Credential Provider](https://devdiv.pkgs.visualstudio.com/_apis/public/nuget/client/CredentialProviderBundle.zip) and make sure the directory with the expanded files is on your system's `PATH`.
+1. Install [VS Code](https://code.visualstudio.com/) and we use it mostly for development in TypeScript and debugging our VS Code extension.
+1. Install [TypeScript](https://code.visualstudio.com/docs/languages/typescript) to compile our code locally.
+1. Install [Rust](https://www.rust-lang.org/tools/install) for the fun of it!
 
-Contributions to this repository have been made easy! Simply click the "**VS Online - Create**" button above to have a complete development environment, including all dependencies, spun up on your behalf. Learn more at [online.visualstudio.com](http://online.visualstudio.com).
+### Additional recommended tools/SDKs
 
-Additionally, this app requires an API key for Azure Maps to be configured as an environment variable:
 
-```
-export AZURE_MAPS_KEY=<YOUR_KEY_GOES_HERE>
-```
+* [CosmosDB Local Emulator](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator) We use Cosmos DB for a number of our data stores, and there may arise a time where you'd like to test these services locally.
+* [Advanced REST client](https://install.advancedrestclient.com/install#/install) Installing some sort of REST client so you can make HTTP requests/web socket connections to test RichNav web APIs easily.
+
+## Get the source code
+
+Clone the following repos in addition to this one:
+
+1. [Anything Tracker](aka.ms/microsoft) - This is our team's main repo, including server and build pipeline.
+1. [Map Services](aka.ms/microsoft) - Our VS Code extension for leveraging Azure Maps and associated data.
+1. [AnythingTracker.VisualStudio](aka.ms/microsoft) - Our VS extension for Anything Tracker.
+1. [AnythingTracker.ChromePlugin](aka.ms/microsoft) - Our Chrome extension for Anything Tracker.
+
+## Request Access
+
+1. Using https://myaccess request access to "AnythingTracker" with the permission "Team"
+1. Join the team on GitHub by going to https://repos.opensource.microsoft.com/, find "Microsoft" in the list of available Microsoft GitHub Organizations and click the Join button. Then search for the "AnythingTracker" team. You will see our team members listed and be prompted to request access.
+
+## Setup
+
+1. INSERT WACKY SETUP HERE
 
 ### Links
 
