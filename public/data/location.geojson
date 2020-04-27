@@ -31,6 +31,51 @@
                     47.035128
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Id": 3,
+                "City": "Wenatchee",
+                "Caption": "We went to a winery where I snoozed!"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.208656,
+                    47.343044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Id": 4,
+                "City": "Port Townsend",
+                "Caption": "Cabins are fun because I get snuggles!"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.771133,
+                    48.109336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Id": 5,
+                "City": "Redmond",
+                "Caption": "Mom brought me to work to say hi to her coworkers!"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.129387,
+                    47.644291
+                ]
+            }
         }
     ]
 }
