@@ -169,8 +169,8 @@ function loadStoreData () {
       // Add the features to the data source.
       datasource.add(parks);
 
-      document.getElementById('total_parks').innerHTML = parks.length;
-      document.getElementById('visited_parks').innerHTML = parks.filter(i => i.properties.Visited).length;
+      // document.getElementById('total_parks').innerHTML = parks.length;
+      // document.getElementById('visited_parks').innerHTML = parks.filter(i => i.properties.Visited).length;
 
       // Initially update the list items.
       updateListItems();
@@ -278,12 +278,11 @@ function updateListItems () {
       properties = shape.getProperties();
 
       html.push('<div class="listItem ',
-        'visited' + properties['Visited'],
         '" onclick="itemSelected(\'', shape.getId(), '\')"><div class="listItem-title">',
-        properties['VenueName'],
+        properties.City,
         '</div>',
 
-        properties['TeamName'],
+        properties.Caption,
         '<br />',
 
         // Get the distance of the shape.
@@ -326,16 +325,16 @@ function showPopup (shape) {
   var html = ['<div class="storePopup">'];
 
   html.push('<div class="popupTitle">',
-    properties['City'],
+    properties.City,
     '<div class="popupSubTitle">',
-    properties['Caption']
-    /*
+    properties.Caption,
     '</div></div><div class="popupContent">',
 
     // Show team image
-    '<img onerror="this.src=\'/images/MissingImg.png\';" src="/images/teams/',
-    properties['VenueId'],
-    '.png">',
+    '<img " src="/images/teams/',
+    properties.VenueId,
+    '.png">'
+    /*
     '<br /><hr/><span class="popupLeague">',
     properties['League'],
     '</span><span class="popupLabel">Visited:</span>',
@@ -363,7 +362,7 @@ function showPopup (shape) {
 }
 
 // eslint-disable-next-line no-unused-vars
-function toggleVenue(el) {
+function toggleVenue (el) {
   var id = el.dataset.venue;
   var visited = el.checked;
 

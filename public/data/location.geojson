@@ -5,7 +5,7 @@
         {
             "type": "Feature",
             "properties": {
-                "VenueId": 1233,
+                "VenueId": 219,
                 "City": "Seattle",
                 "Caption": "I can see my house from here!"
             },
@@ -20,7 +20,7 @@
         {
             "type": "Feature",
             "properties": {
-                "VenueId": 1234,
+                "VenueId": 219,
                 "City": "Olympia",
                 "Caption": "Born and raised (for 8 weeks) in the capitol!"
             },
