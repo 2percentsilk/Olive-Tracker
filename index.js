@@ -12,10 +12,14 @@ app.set('views', path.join(__dirname, 'views'));
 //app.use(express.json());
 
 //main app page
-app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: process.env.AZURE_MAPS_KEY }));
+app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: 'H6_RVPo_12G801duwlz91pKId4DeOH97Moc64Qk6nN0' }));
 
 //return a json list of ballparks
 app.get('/api/parks', (req, res) => {
+  var jsonFile = fs.readFileSync('data/ballparks.geojson');
+  res.json(jsonFile);
+
+  /*
   mongoClient.connect(mongoUrl, (_err, db) => {
     var dbo = db.db(mongoDb);
 
@@ -27,6 +31,7 @@ app.get('/api/parks', (req, res) => {
       db.close();
     });
   });
+  */
 });
 
 //update the visited bit in the db
