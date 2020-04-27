@@ -331,9 +331,9 @@ function showPopup (shape) {
     '</div></div><div class="popupContent">',
 
     // Show team image
-    '<img " src="/images/teams/',
+    '<img " src="/images/pictures/',
     properties.Id,
-    '.png">'
+    '.jpg">'
     /*
     '<br /><hr/><span class="popupLeague">',
     properties['League'],
