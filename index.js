@@ -16,8 +16,8 @@ app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: 'H6_RVPo_12G801
 
 //return a json list of ballparks
 app.get('/api/parks', (req, res) => {
-  var jsonFile = fs.readFileSync('data/ballparks.geojson');
-  res.json(jsonFile);
+  var jsonFile = fs.readFileSync('public/data/ballparks.geojson', 'utf8');
+  res.send(jsonFile);
 
   /*
   mongoClient.connect(mongoUrl, (_err, db) => {
@@ -34,6 +34,7 @@ app.get('/api/parks', (req, res) => {
   */
 });
 
+/*
 //update the visited bit in the db
 app.put('/api/update', (req, res) => {
   var body = req.body;
@@ -55,6 +56,7 @@ app.put('/api/update', (req, res) => {
     });
   }
 });
+*/
 
 //Configuring static assets (css/js)
 app.use(express.static('public'))

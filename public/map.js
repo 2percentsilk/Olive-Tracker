@@ -326,9 +326,9 @@ function showPopup (shape) {
   var html = ['<div class="storePopup">'];
 
   html.push('<div class="popupTitle">',
-    properties['VenueName'],
+    properties['City'],
     '<div class="popupSubTitle">',
-    properties['TeamName'],
+    properties['Caption']
     /*
     '</div></div><div class="popupContent">',
 
