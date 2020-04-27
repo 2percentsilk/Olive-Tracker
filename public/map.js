@@ -332,7 +332,7 @@ function showPopup (shape) {
 
     // Show team image
     '<img " src="/images/teams/',
-    properties.VenueId,
+    properties.Id,
     '.png">'
     /*
     '<br /><hr/><span class="popupLeague">',

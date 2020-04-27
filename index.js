@@ -19,7 +19,6 @@ app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: 'H6_RVPo_12G801
 app.get('/api/parks', (req, res) => {
   var jsonFile = fs.readFileSync('public/data/location.geojson', 'utf8');
   res.send(jsonFile);
-  
 });
 
 // Configuring static assets (css/js)
