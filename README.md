@@ -41,7 +41,7 @@ Clone the following repos in addition to this one:
 
 ## Setup
 
-![Install Windows](https://raw.githubusercontent.com/abuchholtzau/Olive-Tracker/master/public/images/windows-program-manager-vectorized.png?token=AAAAWTH5YPV7FJPNHFGZWPK6U5WAG "Windows 3.1")
+![Install Windows](https://www.hanselman.com/blog/content/binary/windows-program-manager-vectorized.png "Windows 3.1")
 
 ### Links
 
