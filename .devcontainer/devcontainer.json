@@ -2,8 +2,7 @@
     "name": "Olive Tracker",
     "appPort": 3000,
     "extensions": [
-        "dbaeumer.vscode-eslint",
-        "gruntfuggly.todo-tree"
+        "dbaeumer.vscode-eslint"
     ],
     "settings": {
         "files.autoSave": "on"
