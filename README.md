@@ -10,7 +10,7 @@ Familiarize yourself with this app to get started on our team before tackling th
 1. Allow installation of unshipped software by running this from an elevated command prompt:
 
     ```
-    \\preinstall\PREINSTALL\JustLetMeRunThis\Preinstall.cmd
+    \\PreRelease\JustLetMeRunThis\Prerelease.cmd
     ```
     
 1. Install the .NET Core SDK version specified in our [global.json](https://devdiv.visualstudio.com/DevDiv/_git/VSCloudKernel?path=%2Fglobal.json). E.g. [.NET Core SDK 3.1.102](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.102-windows-x64-installer)
@@ -36,8 +36,9 @@ Clone the following repos in addition to this one:
 
 ## Request Access
 
-1. Using https://myaccess request access to "AnythingTracker" with the permission "Team"
+1. Using https://myaccess, request access to "AnythingTracker" with the permission "Team".
 1. Join the team on GitHub by going to https://repos.opensource.microsoft.com/, find "Microsoft" in the list of available Microsoft GitHub Organizations and click the Join button. Then search for the "AnythingTracker" team. You will see our team members listed and be prompted to request access.
+1. Reach out to [Olive](https://www.instagram.com/olivemycorgi/) if you're in need of a puppy while you wait for permissions to propogate.
 
 ## Setup
 
