@@ -13,7 +13,7 @@ app.set('views', path.join(__dirname, 'views'));
 // app.use(express.json());
 
 // main app page
-app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: 'H6_RVPo_12G801duwlz91pKId4DeOH97Moc64Qk6nN0' }));
+app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: '' }));
 
 // return a json list of ballparks
 app.get('/api/parks', (req, res) => {
