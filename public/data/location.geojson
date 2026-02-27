@@ -76,6 +76,36 @@
                     47.644291
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Id": 6,
+                "City": "Woodinville",
+                "Caption": "I attended my pawrental's wedding!"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.1629,
+                    47.7543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Id": 7,
+                "City": "Cave B Resort",
+                "Caption": "Vacation time at this beautiful resort!"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.9917,
+                    47.0456
+                ]
+            }
         }
     ]
 }
